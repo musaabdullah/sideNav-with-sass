@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/style.css">
+    <title>Side nav</title>
+</head>
+<body>
+    <div class="sideNav">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Contact</li>
+            </ul>
+        </nav>
+    </div>
+    <button class="menu">Open</button>
+
+    <script>
+        const sideNav = document.querySelector('.sideNav')
+        const btn = document.querySelector('.menu')
+         btn.addEventListener('click', () => {
+             if(sideNav.style.right == "-140px"){
+                 sideNav.style.right = "0";
+                 btn.attr.value = "close";
+             }else {
+                 sideNav.style.right = "-140px"
+                 
+             }
+         })
+    </script>
+</body>
+</html>
