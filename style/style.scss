@@ -11,7 +11,7 @@ body {
         height: 100vh;
         background: pink;
         position: fixed;
-        right: 0px;
+        right: -140px;
         z-index: 1;
         padding: 10px;
         transition: 1s;
@@ -40,6 +40,14 @@ body {
         top: 10px;
         right: 20px;
         z-index: 2;
+        border: none;
+        outline: none;
+        background-color: salmon;
+        cursor: pointer;
+        i {
+            font-size: 2em;
+            color: white;
+        }
 
     }
 }

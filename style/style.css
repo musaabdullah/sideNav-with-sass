@@ -13,7 +13,7 @@ body .sideNav {
   height: 100vh;
   background: pink;
   position: fixed;
-  right: 0px;
+  right: -140px;
   z-index: 1;
   padding: 10px;
   -webkit-transition: 1s;
@@ -46,5 +46,14 @@ body .menu {
   top: 10px;
   right: 20px;
   z-index: 2;
+  border: none;
+  outline: none;
+  background-color: salmon;
+  cursor: pointer;
+}
+
+body .menu i {
+  font-size: 2em;
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */
