@@ -5,11 +5,11 @@
 }
 
 body {
-    background: salmon;
+    background: #1565c0;
     .sideNav {
         width: 120px;
         height: 100vh;
-        background: pink;
+        background: #0d47a1;
         position: fixed;
         right: -140px;
         z-index: 1;
@@ -21,12 +21,12 @@ body {
             li {
                 margin:5px;
                 padding: 10px;
-                background-color: green;
+                // background-color: green;
                 font-size: 1em;
                 a {
                     font-weight: bold;
                     text-decoration:none;
-                    color: black;
+                    color: white;
                 }
             }
         
@@ -42,7 +42,7 @@ body {
         z-index: 2;
         border: none;
         outline: none;
-        background-color: salmon;
+        background-color: #0d47a1;
         cursor: pointer;
         i {
             font-size: 2em;
