@@ -13,18 +13,27 @@ body .sideNav {
   height: 100vh;
   background: pink;
   position: fixed;
-  right: -140px;
+  right: 0px;
   z-index: 1;
   padding: 10px;
   -webkit-transition: 1s;
   transition: 1s;
 }
 
-body .sideNav li {
-  margin: 50px auto;
+body .sideNav ul {
+  margin-top: 60px;
+  width: 100%;
 }
 
-body .sideNav li a {
+body .sideNav ul li {
+  margin: 5px;
+  padding: 10px;
+  background-color: green;
+  font-size: 1em;
+}
+
+body .sideNav ul li a {
+  font-weight: bold;
   text-decoration: none;
   color: black;
 }
